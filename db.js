@@ -9,7 +9,7 @@ let connect = function(){
   });
   
   global.connection = pool;
-  return pool.connection();
+  return pool
 }
 
 module.exports = { connect }
